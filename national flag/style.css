@@ -1,0 +1,23 @@
+* {margin: 0;
+padding: 0;}
+
+h2{ color: tomato  ;text-align: center;}
+
+section{ background-color: lightskyblue;
+height: 100vh;}
+
+.flag { height: 250px;
+        width: 400px;
+        background-color: green;
+        position: relative;
+}
+.circle{ 
+    height: 130px;
+    width: 130px;
+    background-color: red;
+    border-radius: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
